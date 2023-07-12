@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.main_container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.google_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+@media screen and (min-width: 768px) {
+  .google_container {
+    margin-top: 100px;
+  }
+}
+.google_logo {
+  height: 50px;
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .google_logo {
+    height: 150px;
+    width: 420px;
+  }
+}
+.search_input_container {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin-top: 22px;
+}
+@media screen and (min-width: 768px) {
+  .search_input_container {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 42px;
+  }
+}
+.search_container {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+@media screen and (min-width: 768px) {
+  .search_container {
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+.search_icon {
+  height: 16px;
+  width: 16px;
+}
+@media screen and (min-width: 768px) {
+  .search_icon {
+    height: 24px;
+    width: 24px;
+  }
+}
+.search_input {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #64748b;
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin-left: 16px;
+}
+@media screen and (min-width: 768px) {
+  .search_input {
+    font-size: 20px;
+    height: 40px;
+    margin-left: 8px;
+  }
+}
+.suggestion_list {
+  padding-left: 12px;
+  padding-right: 14px;
+  padding-bottom: 12px;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .suggestion_list {
+    padding-left: 16px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+  }
+}
